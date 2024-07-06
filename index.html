@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="contain">
+        <div class="nav-bar">
+            <div class="title">
+                <h2>MINISTORE</h2>
+            </div>
+            <div class="list1">
+                <ul class="groups">
+                    <li><a href="#carousel"> Home</a></li>
+                    <li><a href="#box"> Services</a></li>
+                    <li><a href="#set"> Products</a></li>
+                    <li><a href="#mobile"> Watches</a></li>
+                    <li><a href="#Watches"> Sales</a></li>
+                    <li><a href="#posts"> Blogs</a></li>
+                    <li>
+                        <div class="dropdown" id="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ABOUT</a></li>
+                                <li><a class="dropdown-item" href="#">BLOG</a></li>
+                                <li><a class="dropdown-item" href="#">SHOPS</a></li>
+                                <li><a class="dropdown-item" href="#">CART</a></li>
+                                <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                                <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                                <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <div class="icons">
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><i class="fa-solid fa-user"></i></li>
+                        <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    </ul>
+                    
+                    </div>
+                
+                <div id="menubar">
+                    <button onclick="toggleMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div class="list">
+                    <ul class="groups1">
+                        <li><a href="#carousel">Home</li>
+                        <li><a href="#box"> Services</a></li>
+                        <li><a href="#set">Products</a></li>
+                        <li><a href="#mobile">Watches</a></li>
+                        <li><a href="#Watches">Sales</a></li>
+                        <li><a href="#posts">Blogs</a></li>
+                        <li>
+                            <div class="dropdown" id="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PAGES
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">ABOUT</a></li>
+                                    <li><a class="dropdown-item" href="#">BLOG</a></li>
+                                    <li><a class="dropdown-item" href="#">SHOPS</a></li>
+                                    <li><a class="dropdown-item" href="#">CART</a></li>
+                                    <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                                    <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                                    <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
+                                    <li><a class="dropdown-item" href="#">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </li>
+              
+            </div>
+        </div>
+        <div class="carousel" id="carousel">
+            <div class="ratio ratio-21x9" style="width: 100%; height: 675px;">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="segment">
+                                <div class="item-title">
+                                    <div class="title1">
+                                        <h1 class="font">YOUR PRODUCTS <br>ARE GREAT</h1>
+                                        <button class="button">SHOP PRODUCT</button>
+                                    </div>
+                                    <div class="images">
+                                        <div class="images1">
+                                            <img src="https://themewagon.github.io/MiniStore/images/banner-image.png"
+                                                class="" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="carousel-item">
+                            <div class="segment">
+                                <div class="item-title">
+                                    <div class="title1">
+                                        <h1 class="font">YOUR PRODUCTS <br>ARE GREAT</h1>
+                                        <button class="button">SHOP PRODUCT</button>
+                                    </div>
+                                    <div class="images">
+                                        <div class="images1">
+                                            <img src="https://themewagon.github.io/MiniStore/images/banner-image.png"
+                                                class="" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"id="move"
+                        aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+            
+            
+    
+        
+        <div class="container" id="box">
+
+
+        </div>
+        <div class="container" id="set">
+            <div class="head">
+                <h3>MOBILE PRODUCTS</h3>
+                <h4>Go to shop</h4>
+            </div>
+            <div class="photos">
+
+            </div>
+
+        </div>
+
+        <div class="container" id="mobile">
+            <div class="productslist">
+                <h3>SMART WATCHES</h3>
+                <h4>Go to shop</h4>
+            </div>
+            <div class="items1">
+
+            </div>
+
+        </div>
+
+        <div class="segment3" id="Watches">
+            <div class="item-title3">
+                <div class="title3">
+                    <h5>10%off</h5>
+                    <h1 class="font3">NEW YEAR<br>SALE</h1>
+                    <button class="button">SHOP PRODUCT</button>
+                </div>
+                <div class="images3">
+                    <div class="images4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="posts">
+            <div class="postlist">
+                <h3>LATEST POSTS</h3>
+                <h4>READ BLOGS</h4>
+            </div>
+            <div class="items4">
+
+            </div>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" id="slides1">
+            <div class="carousel-inner" id="slides">
+                <div class="carousel-item active">
+                    <div class="container" id="slide1">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quos quis ipsa iure
+                            dignissimos minus numquam, alias, dicta harum sint, nisi earum qui! Nam facere rerum atque
+                            magnam enim sapiente, veritatis impedit incidunt praesentium assumenda quibusdam est tenetur
+                            nisi doloribus! Commodi, earum. Nobis illum reiciendis soluta magni, autem aperiam velit.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" id="slide1">
+                    <div class="container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellat earum, itaque culpa
+                            laboriosam repellendus quod natus vitae accusamus possimus doloremque explicabo expedita
+                            eius numquam quibusdam voluptate. Quo esse maiores quia, dolorem beatae ea maxime quisquam
+                            minus eum nemo ratione! Ratione quis magnam eius distinctio amet maxime illum sint. Modi!
+                        </p>
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="container" id="last">
+            <div class="function">
+                <div class="sub">
+                    <h2>SUBSCRIBE NOW</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+                <div class="input">
+                    <input id="solo"type="text" placeholder="Your email address here">
+                    <button class="butt">SUBSCRIBE</button>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container" id="shops">
+            <div class="heading">
+                <h3>
+                    <center>SHOP OUR INSTA</center>
+                </h3>
+            </div>
+            <div class="pictures">
+
+            </div>
+        </div>
+
+        <div class="container" id="end">
+            <div class="contact">
+                <div class="mini"><h4>MiniStore</h4></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi distinctio ratione sunt itaque, nostrum, voluptatibus veniam quidem a incidunt .</p>
+
+                </div>
+                <div class="social">
+                    <ul class="media">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="quick">
+                <h4>Quick Links</h4>
+                </div>
+                <div class="topics">
+                    <ul class="list-items">
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>SHOPS</li>
+                        <li>BLOG</li>
+                        <li>CONTACT</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom1">
+                <div class="quick1">
+                <h4>HELP AND INFO PEOPLE</h4>
+                </div>
+                <div class="topics1">
+                    <ul class="list-items1">
+                        <li>TRACK YOUR ORDERS</li>
+                        <li>RETURNS POLICIES</li>
+                        <li>SHIPPING</li>
+                        <li>CONTACT US</li>
+                        <li>FAQ</li>
+                        
+                    </ul>
+                </div>
+                </div>
+
+
+                <div class="bottom2">
+                    <div class="quick2">
+                    <h4>CONTACT US</h4>
+                    </div>
+                    <div class="topics2">
+                        <ul class="list-items2">
+                            <li>DOU YOU HAVE ANY QUIERS</li>
+                            <li>yourinfo@gmail.com</li>
+                           
+                            <li>if you need support</li>
+                            <li>+55 123455678</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./script.js">
+
+    </script>
+</body>
+
+</html>
